@@ -38,3 +38,15 @@ rm | Eliminar directorios o archivos.
 mv <directorio/archivo original> <directorio/archivo destino> | mover directorios/archivos
 cp <directorio/archivo original> <directorio/archivo destino> | copiar directorios/archivos
 ln | Crear enlaces entre ficheros
+docker pull | descargar imagen
+docker run | correr un contenedor
+docker images | ver imagenes instaladas
+docket ps | ver contenedores en ejecucion
+docker ps -a | ver contenedores en ejecucion y otros estados
+docker run -ti | correr un contenedor con terminal y de manera interactiva
+docker run -d | correr contenedor daemon  
+docker run --name | correr y asignar nombre de un contenedor  
+docker rm |  borrar contenedores
+docker stop | detener un contenedor
+docker rmi | borrar imagenes
+  
